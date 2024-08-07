@@ -1,0 +1,12 @@
+.dashboard-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: white;
+}
+
+@media (min-width:767px){
+    .dashboard-title{
+        padding-left: 1rem;
+    }
+}

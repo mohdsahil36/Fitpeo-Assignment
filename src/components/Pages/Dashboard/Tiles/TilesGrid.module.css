@@ -1,0 +1,141 @@
+/* TilesGrid.module.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.grid-item {
+    background-color: rgb(31,32,41);
+    color: #333;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    min-height: 10rem;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.grid-tile-icon-totalOrders,.grid-tile-icon-totalDelivered,.grid-tile-icon-totalCancelled,.grid-tile-icon-totalRevenue {
+    font-size: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-tile-icon-totalOrders{
+    background-color: rgb(41, 50, 105);
+}
+
+.totalOrders{
+    color: rgb(66, 101, 254);
+}
+
+.grid-tile-icon-totalDelivered{
+    background-color: rgb(20, 83, 71);
+}
+
+.totalDelivered{
+    color: rgb(0, 200, 140);
+}
+
+.grid-tile-icon-totalCancelled{
+    background-color: rgb(98,51,51);
+}
+
+.totalCancelled{
+    color: rgb(246, 93, 92);
+}
+
+.grid-tile-icon-totalRevenue{
+    background-color: rgb(91, 44, 73)
+}
+
+.totalRevenue{
+    color: rgb(231, 65, 137);
+}
+
+.grid-info {
+    margin-top: 0.85rem;
+}
+
+.tile-subject{
+    color: rgb(186, 184, 176);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.grid-info-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tileNumberValue{
+    font-size: 2.25rem;
+    color: white;
+    font-weight: 600;
+}
+
+.increaseValue{
+    color: rgb(12,194,141);
+    font-size: 2rem;
+}
+
+.decreaseValue{
+    color: rgb(226, 86, 95);
+    font-size: 2rem;
+}
+
+.grid-info-data-value {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+
+@media (min-width: 576px) { /* Small screens and above */
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
+
+@media (min-width: 768px) { /* Medium screens and above (including iPads) */
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(1fr));
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 992px) { /* Large screens and above */
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
+
+@media (min-width: 1200px) { /* Extra large screens and above */
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 767px) { /* Adjust for mobile screens */
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+}
+
+@media (max-width: 575px) { /* Extra small screens */
+    .grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+}

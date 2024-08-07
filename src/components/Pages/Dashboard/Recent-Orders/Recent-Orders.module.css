@@ -1,0 +1,83 @@
+.tableContainer {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 8px;
+    background-color: rgb(31, 32, 41);
+    padding: 1.25rem;
+  }
+
+  .recent-orders-title{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px; /* Default font size */
+  }
+
+  
+  .table th,
+  .table td {
+    color: white;
+    padding: 8px;
+    text-align: center;
+  }
+
+
+  .table th {
+    color: white;
+    font-weight: 500;
+  }
+
+  .table tr{
+    height: 5rem;
+  }
+
+  .dataRow{
+    border-top: 1px solid rgb(41,42,51);
+    border-bottom: 1px solid rgb(41,42,51);
+  }
+
+  .delivered,.pending,.cancelled {
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+  }
+
+  .delivered {
+    background-color: rgb(20, 83, 71);
+    color: rgb(0, 200, 140);
+  }
+  
+  .pending,.cancelled {
+    background-color: rgb(98, 51, 51);
+    color: rgb(246, 93, 92);
+  }
+  
+  @media (max-width: 768px) {
+    }
+    .table {
+      font-size: 14px; /* Adjust font size for medium screens */
+    }
+
+  
+  @media (max-width: 480px) {
+    .table {
+      font-size: 12px; /* Adjust font size for small screens */
+    }
+  }
+  @media (min-width:767px){
+    .tableContainer{
+      max-width: 77.5rem;
+      margin: 1rem;
+    }
+
+
+    .table td,.table th{
+      font-size: 1.125rem;
+    }
+  }
+  

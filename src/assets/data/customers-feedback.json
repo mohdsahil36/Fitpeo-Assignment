@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Alice Johnson",
+        "feedback": "The food was absolutely amazing, with every dish bursting with flavor and expertly prepared. The service was top-notch, with attentive and friendly staff who made sure we were well taken care of throughout our meal. I had a fantastic time, and I will definitely come back to experience this exceptional dining again!",
+        "rating": 5
+    },
+    {
+        "name": "Bob Smith",
+        "feedback": "The atmosphere of the restaurant was quite pleasant, creating a nice ambiance for dining. However, the food was unfortunately lukewarm and took quite a bit of time to arrive at our table. The delay in service was a bit disappointing, which impacted the overall experience.",
+        "rating": 3
+    },
+    {
+        "name": "Carol Williams",
+        "feedback": "I thoroughly enjoyed the appetizers, which were delightful and well-prepared. The main course was fantastic, with rich flavors and excellent presentation. I was particularly impressed by the desserts, which I highly recommend to anyone dining here. The overall dining experience was very positive and memorable.",
+        "rating": 4
+    },
+    {
+        "name": "David Brown",
+        "feedback": "Overall, I had a great dining experience at this restaurant. The staff were friendly and the food was delicious, although there was a noticeable wait time. Despite the delay, the quality of the meal and the service provided made up for it, resulting in a very enjoyable outing.",
+        "rating": 4
+    },
+    {
+        "name": "Eve Davis",
+        "feedback": "This was by far the best dining experience I’ve had in a while. Everything from the exquisite food to the elegant ambiance was perfectly executed. The attention to detail in both the cuisine and the restaurant’s atmosphere made for a truly memorable experience. I couldn't have asked for a better dining outing.",
+        "rating": 5
+    },
+    {
+        "name": "Frank Miller",
+        "feedback": "While the food was decent, the service left much to be desired. The staff appeared to be overwhelmed and not as attentive as one would hope. This lack of attentiveness affected the overall dining experience, making it less enjoyable than anticipated.",
+        "rating": 2
+    },
+    {
+        "name": "Grace Wilson",
+        "feedback": "The food was quite underwhelming and did not justify the price we paid. Although the restaurant’s ambiance was pleasant and created a nice environment, it couldn’t fully compensate for the disappointing meal. I was expecting a better culinary experience given the setting.",
+        "rating": 2
+    },
+    {
+        "name": "Hank Moore",
+        "feedback": "I had a fantastic meal at this restaurant. The steak was cooked to absolute perfection, and the overall service was exceptional. The staff were very attentive and made sure that every aspect of our dining experience was enjoyable. This place truly stands out for both its food and service.",
+        "rating": 5
+    },
+    {
+        "name": "Ivy Taylor",
+        "feedback": "The meal was enjoyable, though I found the portion sizes to be smaller than I had anticipated. Despite this, the service was quick and efficient, contributing to a pleasant dining experience. Although the portions were not as generous as expected, the quality of the food made up for it to some extent.",
+        "rating": 3
+    },
+    {
+        "name": "Jack Anderson",
+        "feedback": "I had a wonderful dining experience at this restaurant. The flavors of the dishes were unique and well-balanced, and the staff made us feel very welcome and comfortable throughout our visit. The attention to detail and the overall atmosphere contributed to a memorable and enjoyable meal.",
+        "rating": 4
+    }
+]

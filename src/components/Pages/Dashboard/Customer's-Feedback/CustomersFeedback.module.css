@@ -1,0 +1,50 @@
+.reviewsContainer {
+    padding: 16px;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 8px;
+    background-color: rgb(31, 32, 41);
+  }
+  
+  .reviewsHeading {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .reviewsList {
+    max-height: 35.45rem; /* Adjust based on your needs */
+    overflow-y: auto;
+  }
+  
+  .review {
+    margin-bottom: 16px;
+    background-color: rgb(31, 32, 41);
+    border-bottom: 1px solid rgb(41, 42, 51);
+  }
+  
+  .customerName {
+    margin-bottom: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .rating {
+    font-size: 2rem; /* Default font size */
+    color: rgb(250, 220, 40);
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    font-size: 1rem; /* Default font size */
+    color: rgb(176, 177, 184);
+    margin-bottom:1.5rem;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+    height: 0px; /* Height of the horizontal scrollbar */
+  }
+  

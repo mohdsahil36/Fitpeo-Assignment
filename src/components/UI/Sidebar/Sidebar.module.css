@@ -1,0 +1,53 @@
+.sidebar {
+    background-color: rgb(31,32,41);
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.sidebar-pages{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons, .logout {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.icons:hover, .logout:hover {
+    transform: scale(1.2);
+    color: rgb(115,150,250);
+}
+.logout {
+    position: relative;
+}
+@media only screen and (min-width:767px){
+    .sidebar{
+        height: inherit;
+        position:unset;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sidebar-pages{
+        flex-direction: column;
+    }
+    .icons,.logout{
+        font-size: 1.85rem;
+    }
+    .icons:nth-child(even){
+        margin: 1.5rem 0;
+    }
+}

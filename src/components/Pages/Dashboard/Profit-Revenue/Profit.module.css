@@ -1,0 +1,170 @@
+/* Profit.module.css */
+
+.profit-tile {
+    background-color: rgb(31, 32, 41);
+    color: #333;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    min-height: 10.5rem;
+    margin: 1rem auto;
+}
+
+.profit-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.net-profit-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    word-wrap: break-word;
+    color: rgb(176, 177, 184);
+}
+
+.profit-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.profit-value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Adjust width to fit on smaller screens */
+}
+
+.profit-amount {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+    font-weight: 600s;
+}
+
+.profit-visual {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    color: rgb(12, 194, 141);
+    margin-top: 0.5rem;
+    word-wrap: break-word;
+}
+
+.profit-visual .grid-info-data-value {
+    margin-left: 0.5rem;
+}
+
+
+.profit-graph {
+    text-align: center;
+    width: 100%; /* Adjust width to fit on smaller screens */
+}
+
+.profit-graph h1 {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem;
+}
+
+.roundedOff{
+    font-size: 0.9rem;
+    margin-top: 0.625rem;
+    color: #666;
+    word-wrap: break-word;
+    font-weight: 600;
+    color: rgb(176, 177, 184);
+}
+
+.chartContainer {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) { /* Mobile screens */
+    .profit-tile {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .profit-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profit-value, .profit-graph {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .profit-amount {
+        font-size: 1.5rem;
+    }
+
+    .profit-visual {
+        font-size: 0.9rem;
+    }
+
+    .profit-graph h1 {
+        font-size: 1.1rem;
+    }
+
+    .profit-graph p {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { /* Tablets */
+    .profit-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profit-value, .profit-graph {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .profit-amount {
+        font-size: 1.75rem;
+    }
+
+    .profit-visual {
+        font-size: 0.95rem;
+    }
+
+    .profit-graph h1 {
+        font-size: 1.2rem;
+    }
+
+    .profit-graph p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 575px) { /* Extra small screens */
+    .profit-value, .profit-graph {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .profit-amount {
+        font-size: 1.25rem;
+    }
+
+    .profit-visual {
+        font-size: 0.8rem;
+    }
+
+    .profit-graph h1 {
+        font-size: 1rem;
+    }
+
+    .profit-graph p {
+        font-size: 0.7rem;
+    }
+}

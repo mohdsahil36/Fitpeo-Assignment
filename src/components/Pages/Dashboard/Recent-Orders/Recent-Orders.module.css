@@ -1,17 +1,23 @@
 .tableContainer {
-    width: 100%;
-    overflow-x: auto;
-    border-radius: 8px;
-    background-color: rgb(31, 32, 41);
-    padding: 1.25rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+  background-color: rgb(31, 32, 41);
+  padding: 1.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-  .tableContainer:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+.tableContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1187px) {
+  .tableContainer {
+      height: 44.5rem;
   }
+}
 
   .recent-orders-title{
     margin-bottom: 1rem;

@@ -88,12 +88,12 @@
 
 .increaseValue{
     color: rgb(12,194,141);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .decreaseValue{
     color: rgb(226, 86, 95);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .grid-info-data-value {

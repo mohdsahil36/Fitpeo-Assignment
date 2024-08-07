@@ -1,5 +1,5 @@
 .reviewsContainer {
-    padding: 16px;
+    padding: 1rem;
     width: 100%;
     margin-top: 1rem;
     border-radius: 8px;
@@ -26,13 +26,13 @@
   }
   
   .review {
-    margin-bottom: 16px;
+    margin-bottom: 1px;
     background-color: rgb(31, 32, 41);
     border-bottom: 1px solid rgb(41, 42, 51);
   }
   
   .customerName {
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     color: white;
     font-weight: 600;
     font-size: 1.5rem;
@@ -41,7 +41,7 @@
   .rating {
     font-size: 2rem;
     color: rgb(250, 220, 40);
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
   }
   
   .description {

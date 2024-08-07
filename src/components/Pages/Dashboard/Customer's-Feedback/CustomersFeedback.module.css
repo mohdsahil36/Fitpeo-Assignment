@@ -1,9 +1,16 @@
 .reviewsContainer {
     padding: 16px;
     width: 100%;
-    margin: 1rem 0;
+    margin-top: 1rem;
     border-radius: 8px;
     background-color: rgb(31, 32, 41);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .reviewsContainer:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
   
   .reviewsHeading {
@@ -14,7 +21,7 @@
   }
   
   .reviewsList {
-    max-height: 35.45rem; /* Adjust based on your needs */
+    max-height: 35.45rem;
     overflow-y: auto;
   }
   
@@ -32,19 +39,19 @@
   }
   
   .rating {
-    font-size: 2rem; /* Default font size */
+    font-size: 2rem;
     color: rgb(250, 220, 40);
     margin-bottom: 8px;
   }
   
   .description {
-    font-size: 1rem; /* Default font size */
+    font-size: 1rem;
     color: rgb(176, 177, 184);
     margin-bottom:1.5rem;
   }
 
   ::-webkit-scrollbar {
-    width: 0px; /* Width of the scrollbar */
-    height: 0px; /* Height of the horizontal scrollbar */
+    width: 0px;
+    height: 0px;
   }
   

@@ -4,6 +4,13 @@
     border-radius: 8px;
     background-color: rgb(31, 32, 41);
     padding: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .tableContainer:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
 
   .recent-orders-title{
@@ -16,14 +23,14 @@
   .table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 16px; /* Default font size */
+    font-size: 1rem;
   }
 
   
   .table th,
   .table td {
     color: white;
-    padding: 8px;
+    padding: 0.5rem;
     text-align: center;
   }
 
@@ -60,13 +67,13 @@
   @media (max-width: 768px) {
     }
     .table {
-      font-size: 14px; /* Adjust font size for medium screens */
+      font-size: 0.875rem;
     }
 
   
   @media (max-width: 480px) {
     .table {
-      font-size: 12px; /* Adjust font size for small screens */
+      font-size: 0.75rem;
     }
   }
   @media (min-width:767px){

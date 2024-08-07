@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%; /* Adjust width to fit on smaller screens */
+    width: 100%;
 }
 
 .profit-amount {
@@ -63,12 +63,7 @@
 
 .profit-graph {
     text-align: center;
-    width: 100%; /* Adjust width to fit on smaller screens */
-}
-
-.profit-graph h1 {
-    font-size: 1.25rem;
-    margin: 0 0 0.5rem;
+    width: 100%;
 }
 
 .roundedOff{
@@ -86,9 +81,9 @@
     margin: 0 auto;
 }
 
-@media (max-width: 767px) { /* Mobile screens */
+@media (max-width: 767px) {
     .profit-tile {
-        padding: 1rem; /* Adjust padding for smaller screens */
+        padding: 1rem;
     }
 
     .profit-data {
@@ -109,11 +104,7 @@
         font-size: 0.9rem;
     }
 
-    .profit-graph h1 {
-        font-size: 1.1rem;
-    }
-
-    .profit-graph p {
+    .roundedOff{
         font-size: 0.8rem;
     }
 }
@@ -137,16 +128,13 @@
         font-size: 0.95rem;
     }
 
-    .profit-graph h1 {
-        font-size: 1.2rem;
-    }
 
-    .profit-graph p {
+    .roundedOff{
         font-size: 0.85rem;
     }
 }
 
-@media (max-width: 575px) { /* Extra small screens */
+@media (max-width: 575px) {
     .profit-value, .profit-graph {
         width: 100%;
         margin-top: 1rem;
@@ -160,11 +148,7 @@
         font-size: 0.8rem;
     }
 
-    .profit-graph h1 {
-        font-size: 1rem;
-    }
-
-    .profit-graph p {
+    .roundedOff{
         font-size: 0.7rem;
     }
 }

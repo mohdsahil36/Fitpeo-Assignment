@@ -59,9 +59,9 @@
 }
 
 .caret-icon {
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
+    width: 1.875rem;
+    height: 1.875rem;
+    font-size: 1.25rem;
     background-color: rgb(71, 72, 76);
     color: white;
     border-radius: 50%;
@@ -89,26 +89,26 @@
 
 @media (max-width: 768px) {
     .container {
-        padding: 0.5rem; /* Adjust for smaller screens */
+        padding: 0.5rem;
     }
 
     .goals-icon-circle,.dishes-icon-circle,.menu-icon-circle, .caret-icon {
-        margin-right: 8px;
+        margin-right: 0.5rem;
     }
 
     .goals-icon-circle,.dishes-icon-circle,.menu-icon-circle {
-        width: 30px;
-        height: 30px;
-        font-size: 18px;
+        width: 1.875rem;
+        height: 1.875rem;
+        font-size: 1.125rem;
     }
 
     .caret-icon {
-        width: 24px;
-        height: 24px;
-        font-size: 18px;
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1.125rem;
     }
 
-    .option-text p {
-        font-size: 14px; /* Adjust text size for smaller screens */
+    .orders-desc{
+        font-size: 1rem;
     }
 }
